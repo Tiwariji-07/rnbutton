@@ -1,0 +1,101 @@
+{
+    "name" : "button",
+    "displayName" : "Chakra Button",
+    "description" : "A customizable button component inspired by Chakra UI with multiple variants, sizes, and color schemes",
+    "iconUrl" : "icon.svg",
+    "webSupport" : true,
+    "props" : {
+      "text" : {
+        "name" : "text",
+        "displayName" : "Text",
+        "description" : "The text content of the button",
+        "type" : "string",
+        "defaultValue" : "Button",
+        "isRequired" : false
+      },
+      "variant" : {
+        "name" : "variant",
+        "displayName" : "Variant",
+        "description" : "The variant of the button",
+        "type" : "string",
+        "defaultValue" : "solid",
+        "isRequired" : false
+      },
+      "colorScheme" : {
+        "name" : "colorScheme",
+        "displayName" : "Color Scheme",
+        "description" : "The color scheme of the button",
+        "type" : "string",
+        "defaultValue" : "blue",
+        "isRequired" : false
+      },
+      "size" : {
+        "name" : "size",
+        "displayName" : "Size",
+        "description" : "The size of the button",
+        "type" : "string",
+        "defaultValue" : "md",
+        "isRequired" : false
+      },
+      "isDisabled" : {
+        "name" : "isDisabled",
+        "displayName" : "Is Disabled",
+        "description" : "Whether the button is disabled",
+        "type" : "boolean",
+        "defaultValue" : false,
+        "isRequired" : false
+      },
+      "isLoading" : {
+        "name" : "isLoading",
+        "displayName" : "Is Loading",
+        "description" : "Whether the button is in loading state",
+        "type" : "boolean",
+        "defaultValue" : false,
+        "isRequired" : false
+      },
+      "leftIcon" : {
+        "name" : "leftIcon",
+        "displayName" : "Left Icon",
+        "description" : "Icon to display on the left side of the button",
+        "type" : "string",
+        "isRequired" : false
+      },
+      "rightIcon" : {
+        "name" : "rightIcon",
+        "displayName" : "Right Icon",
+        "description" : "Icon to display on the right side of the button",
+        "type" : "string",
+        "isRequired" : false
+      }
+    },
+    "events" : {
+      "onPress" : {
+        "name" : "onPress",
+        "displayName" : "On Press",
+        "description" : "Fired when the button is pressed"
+      }
+    },
+    "styles" : {
+      "container" : {
+        "name" : "container",
+        "style" : {
+          "borderRadius" : 6,
+          "paddingHorizontal" : 16,
+          "paddingVertical" : 8,
+          "alignItems" : "center",
+          "justifyContent" : "center",
+          "backgroundColor" : "#3182ce"
+        }
+      },
+      "text" : {
+        "name" : "text",
+        "style" : {
+          "color" : "white",
+          "fontWeight" : "600",
+          "textAlign" : "center",
+          "fontSize" : 16
+        }
+      }
+    }
+  }
+  
